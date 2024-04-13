@@ -1,0 +1,29 @@
+body{
+    font-size:30px;
+}
+main{
+    display:flex;
+    width:800px;
+    background-color: whitesmoke;
+}
+nav{
+    position: relative;
+    background-color: antiquewhite;
+    
+}
+nav ul{
+    width:10rem;
+    list-style-type: none;
+}
+nav ul li{
+    padding:.5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    line-height:50px;
+    
+}
+nav a.active{
+    background-color: aqua;
+    color:yellow;
+}
